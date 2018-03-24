@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="Pomodoro_Clock.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript" src="Pomodoro_clock.js"></script>
+</head>
+<body>
+  <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-12 title">Justin's JS Pomodoro Clock</div>
+     </div>
+  </div>
+  <div style = "color:white">-----------------------------------------------------------------------------------------------------</div>
+ <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-5 title">Break Length</div>
+      <div  class = "col-sm-1"></div>
+      <div  class = "col-sm-1"></div>
+      <div  class = "col-sm-5 title">Session Length</div>
+     </div>
+  </div>
+  <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-1 title" id = "breakminus">-</div>
+      <div  class = "col-sm-3 title" id = "breaklength">5</div>
+      <div  class = "col-sm-1 title" id = "breakplus">+</div>
+      <div  class = "col-sm-1"></div>
+      <div  class = "col-sm-1"></div>
+      <div  class = "col-sm-1 title" id = "sessionminus">-</div>
+      <div  class = "col-sm-3 title" id = "sessionlength">25</div>
+      <div  class = "col-sm-1 title" id = "sessionplus">+</div>
+     </div>
+  </div>
+  <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-12 title session" id = "sessionname">Session</div>
+     </div>
+  </div>
+  <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-12 title session" id = "sessiontime">25</div>
+     </div>
+  </div>
+  <div class = "container">
+   <div class = "row">
+      <button  class = "col title session" style = "color: black" id = "startbutton">Start</button>
+     </div>
+  </div>
+  <div class = "container">
+   <div class = "row">
+      <div  class = "col-sm-12 explanation">*Initial Numbers Are Minutes</div>
+      <div  class = "col-sm-12 explanation">*Increase/Decrease Lengths To Reset Clock</div>
+     <div  class = "col-sm-12 explanation">*Breaks Can't Be More Than 20 Min Or Less Than 1</div>
+     <div  class = "col-sm-12 explanation">*Sessions Can't Be Less Than 15 Min Or More Than 45</div>
+     </div>
+  </div>
+</body>
+</html>
